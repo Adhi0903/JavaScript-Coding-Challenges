@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding challenge 2</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Coding challenge 2</h1>
+    <script>
+        const avgDolphins = (106 + 28 + 89) / 3;
+        const avgKoalas = (102 + 86 + 109) / 3;
+        const avgScore = 100;
+        console.log(avgDolphins, avgKoalas)
+        if (avgDolphins > avgKoalas && avgDolphins >= avgScore) {
+            console.log("Dolphins win the trophy")
+        } else if (avgKoalas > avgDolphins && avgKoalas >= avgScore) {
+            console.log("Koalas win the trophy");
+        } else if (avgDolphins === avgKoalas && avgDolphins >= avgScore && avgKoalas >= avgScore) {
+            console.log("They both are winners!");
+        } else console.log("No one wins!");
+    </script>
+
+</body>
+
+</html>
