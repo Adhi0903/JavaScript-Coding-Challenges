@@ -1,0 +1,32 @@
+<!-- Tip calculator using Ternary operator-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coding challenge 3
+    </title>
+    <script>
+        // var bill = 500;
+
+        // var pv = 15;
+        // var ph = 20;
+        // var hightip = (ph / 100) * bill;
+        // var normaltip = (pv / 100) * bill;
+        // var tip = bill > 50 && bill < 300 ? console.log("The tip is " + " " + normaltip + " " + "the bill is" + " " + bill + " " + "the total payment is" + " " + (bill + normaltip)) : console.log("The tip is " + " " + hightip + " " + "the bill is" + " " + bill + " " + "the total payment is" + " " + (bill + hightip));
+
+        /////////////////////////////// OR /////////////////////////////////////////////
+
+        const bill = 275;
+        const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.20;
+        console.log(`The bill was ${bill}, The tip is ${tip}, The total is ${bill + tip}`);
+
+    </script>
+</head>
+
+<body>
+    <h1>Coding challenge 3</h1>
+</body>
+
+</html>
